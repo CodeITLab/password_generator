@@ -55,3 +55,9 @@ body {
     font-family: 'Bebas Neue', sans-serif;  
 }
 
+.submit-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
