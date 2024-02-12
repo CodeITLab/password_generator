@@ -28,3 +28,9 @@ function generateRandomPassword() {
 
 }
 generateRandomPassword();
+
+document.querySelector("i").addEventListener("dblclick", copyToClipboard);
+
+function copyToClipboard() {
+    navigator.clipboard.writeText(password.innerHTML);
+}
