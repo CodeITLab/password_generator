@@ -55,3 +55,10 @@ body {
     font-family: 'Bebas Neue', sans-serif;  
 }
 
+.copy {
+    width: 8%;
+}
+
+p {
+    width: 80%;
+}

@@ -29,7 +29,7 @@ function generateRandomPassword() {
 }
 generateRandomPassword();
 
-document.querySelector("i").addEventListener("dblclick", copyToClipboard);
+document.querySelector("p").addEventListener("dblclick", copyToClipboard);
 
 function copyToClipboard() {
     navigator.clipboard.writeText(password.innerHTML);
