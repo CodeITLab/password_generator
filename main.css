@@ -62,3 +62,20 @@ body {
 p {
     width: 80%;
 }
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.message {
+    height: 20px;
+    width: 311.217px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
