@@ -28,3 +28,20 @@ function generateRandomPassword() {
 
 }
 generateRandomPassword();
+
+document.querySelector("p").addEventListener("dblclick", copyToClipboard);
+document.getElementById("copy").addEventListener("click", copyToClipboard);
+
+function timer() {
+    setInterval(() => {
+        document.getElementById("message").classList.remove("block");
+    document.getElementById("message").classList.add("none");
+    }, 3000) 
+}
+
+function copyToClipboard() {
+    navigator.clipboard.writeText(password.innerHTML);
+    document.getElementById("message").classList.remove("none");
+    document.getElementById("message").classList.add("block");
+    timer();
+}
