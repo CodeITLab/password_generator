@@ -52,11 +52,15 @@ body {
     color:#7cc9cc; 
     font-size: 30px;
     margin-left: 5px;
-    font-family: 'Bebas Neue', sans-serif;  
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .copy {
     width: 8%;
+}
+
+.copy:hover {
+    cursor: pointer;
 }
 
 p {
@@ -77,5 +81,6 @@ p {
     display: flex;
     justify-content: center;
     text-align: center;
-
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
 }
